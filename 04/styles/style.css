@@ -1,0 +1,58 @@
+*,
+::before,
+::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+nav label {
+	display: block;
+	width: 40px;
+	height: 40px;
+	border: 1px solid rgb(100, 100, 100);
+	border-radius: 5px;
+	cursor: pointer;
+	position: relative;
+}
+
+nav label::before {
+	content: '';
+	display: block;
+	width: 70%;
+	height: 30%;
+	border-top: 3px solid rgb(100, 100, 100);
+	border-bottom: 1.5px solid rgb(100, 100, 100);
+	position: relative;
+	top: 20%;
+	left: 15%;
+}
+
+nav label::after {
+	content: '';
+	display: block;
+	width: 70%;
+	height: 30%;
+	border-top: 1.5px solid rgb(100, 100, 100);
+	border-bottom: 3px solid rgb(100, 100, 100);
+	position: relative;
+	top: 20%;
+	left: 15%;
+}
+
+nav input {
+	display: none;
+}
+
+nav ul {
+	display: none;
+	list-style-type: none;
+}
+
+nav input:checked + ul {
+	display: block;
+}
+
+nav ul > li:hover > ul {
+	display: block;
+}
