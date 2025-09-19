@@ -96,7 +96,7 @@ nav li > ul a {
 	}
 
 	nav input:checked + ul,
-	nav ul {
+	nav > ul {
 		display: flex;
 		flex-direction: row;
 		position: relative;
