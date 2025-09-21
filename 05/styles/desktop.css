@@ -1,3 +1,4 @@
+/* HEADER  */
 nav {
 	display: flex;
 	column-gap: 2em;
@@ -19,4 +20,10 @@ nav label {
 
 nav .logo {
 	max-width: 300px;
+}
+
+/* SECTION ONE  */
+
+.section-one .wrapper {
+	grid-template-columns: 1fr 1fr;
 }
