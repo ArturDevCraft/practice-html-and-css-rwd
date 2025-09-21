@@ -91,3 +91,14 @@ nav input:checked + .logo {
 	row-gap: 5px;
 	grid-template-columns: 1fr;
 }
+
+/* FOOTER  */
+footer .wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer .content {
+	max-width: 200px;
+}
