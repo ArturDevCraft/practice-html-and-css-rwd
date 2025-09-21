@@ -23,7 +23,11 @@ nav .logo {
 }
 
 /* SECTION ONE  */
-
 .section-one .wrapper {
 	grid-template-columns: 1fr 1fr;
+}
+
+/* SECTION TWO  */
+.section-two .wrapper {
+	grid-template-columns: 1fr 1fr 1fr;
 }
