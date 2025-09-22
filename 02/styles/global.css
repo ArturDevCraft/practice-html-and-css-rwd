@@ -4,6 +4,14 @@
 	box-sizing: border-box;
 }
 
+body {
+	display: grid;
+	grid-template-areas:
+		'A'
+		'B'
+		'C';
+}
+
 .a,
 .b,
 .c {
